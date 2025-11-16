@@ -5,7 +5,6 @@ pairs = 0
 for number in numbers:
     if number in counts:
         pairs += counts[number]
-        print(number)
         counts[number] += 1
     else:
         counts[number] = 1
