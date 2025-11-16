@@ -1,4 +1,4 @@
-numbers = input("Введіть послідовність чисел")
+numbers = input("Введіть послідовність чисел ")
 list(numbers)
 
 n = len(numbers)
