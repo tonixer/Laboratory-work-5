@@ -3,4 +3,4 @@ numbers = [int(num) for num in input("Введіть числа через пр�
 reversed_numbers = numbers
 reversed_numbers.reverse()
 
-print(reversed_numbers)
+print("".join(str(num) for num in reversed_numbers))
